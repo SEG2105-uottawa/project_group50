@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/serName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titleCreateServ" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/serviceName"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:ems="10"
+                android:hint="@string/serviceN"
+                android:inputType="textPersonName"
+                android:text="@string/empty_string"
+                android:textColor="#919191" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/serviceRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/serviceR"
+                android:inputType="numberDecimal"
+                android:text="@string/empty_string"
+                android:textColor="#919191" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#919191"
+                android:text="Select all that apply" />
+
+            <CheckBox
+                android:id="@+id/nameFirst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/fName" />
+
+            <CheckBox
+                android:id="@+id/nameLast"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/lName" />
+
+            <CheckBox
+                android:id="@+id/birthDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/dBirth" />
+
+            <CheckBox
+                android:id="@+id/addressCust"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/address" />
+
+            <CheckBox
+                android:id="@+id/emailCust"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/email" />
+
+            <CheckBox
+                android:id="@+id/typeOfLicense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/licenseT" />
+
+            <CheckBox
+                android:id="@+id/dateOfPick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/pickupD" />
+
+            <CheckBox
+                android:id="@+id/timeOfPick"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/pickupT" />
+
+            <CheckBox
+                android:id="@+id/dateOfRet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/returnD" />
+
+            <CheckBox
+                android:id="@+id/timeOfRet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/returnT" />
+
+            <CheckBox
+                android:id="@+id/maxNumKm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/maxKM" />
+
+            <CheckBox
+                android:id="@+id/truckArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/areaT" />
+
+            <CheckBox
+                android:id="@+id/startMovLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/movingSt" />
+
+            <CheckBox
+                android:id="@+id/endMovLoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/movingEn" />
+
+            <CheckBox
+                android:id="@+id/moverNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/nMovers" />
+
+            <CheckBox
+                android:id="@+id/boxesNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/nBoxes" />
+
+            <CheckBox
+                android:id="@+id/typeOfCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#673AB7"
+                android:text="@string/carT" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <Button
+                android:id="@+id/createButton1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="@string/createBtn"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
